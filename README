@@ -1,0 +1,15 @@
+getpass - Universal Password Retrieval Utility - Version 2.1 - 07/28/2010
+   
+   This program retrieves a user's Universal Password via an ldap extended operation.
+   "Wrapper" (this program) developed by Timothy Patterson (tim@pc-professionals.net)
+
+*** NOTE: This program requires that the "Allow Admin to retrive password" option is turned ON
+          in your Universal Password policy!!!  Do this via iManager...
+
+TO INSTALL:  Run ./install.sh and follow the wizard.
+
+Usage: getpass (ldap server) (admin DN) (admin Pass) (target DN)
+
+Example: getpass localhost cn=admin,ou=users,o=test myadmin cn=tim,ou=users,o=test
+
+
