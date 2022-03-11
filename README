@@ -1,3 +1,7 @@
+### THIS CODE IS DEPRECATED ###
+Please use the Python version at: https://github.com/tjpatter/getpass3
+### ###
+
 getpass - Universal Password Retrieval Utility - Version 2.1 - 07/28/2010
    
    This program retrieves a user's Universal Password via an ldap extended operation.
